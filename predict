@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ $# -eq 3 ]; then
+    train_images_path="$1"
+    test_images_path="$2"
+    predictions_path="$3"
+else
+    echo "invalid arguments"
+    exit 1
+fi
+
+python ./main.py "$1" "$2" "$3"
