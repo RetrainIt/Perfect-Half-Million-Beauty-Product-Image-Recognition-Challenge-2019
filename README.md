@@ -24,3 +24,7 @@ and place them in `./data/`  and `./test/`
   - `-train_path `(default: 1) : the file for training data
   - `-test_path `(default: './data/') : the file for val data
   -  `-tlabel `(default: './val.csv') : the label for val data
+  
+Please cite the paper if you are using this code.
+  
+Zehang Lin, Haoran Xie, Peipei Kang, Zhenguo Yang, Wenyin Liu and Qing Li. Cross-domain Beauty Item Retrieval via Unsupervised Embedding Learning. Proceedings of the 27th ACM International Conference on Multimedia, 2019: 2543-2547.
